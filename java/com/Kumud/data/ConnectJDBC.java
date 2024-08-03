@@ -15,7 +15,7 @@ public class ConnectJDBC
 		}
 		catch(Exception e)
 		{
-			System.err.print(e);
+			System.out.println(e);
 		}
 		return con;
 	}
